@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+帳票印刷
+</name>
+</assembly>
+<members>
+<member name="P:帳票印刷.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:帳票印刷.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:帳票印刷.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:帳票印刷.Form1.CopyBarcodeShapeToCell(System.Object,System.Int32,System.Int32,System.Object,System.String)">
+	<summary>
+ 从源工作表的指定行范围中找到条形码图形，并复制粘贴到目标工作表指定单元格
+ （兼容 Excel 2010 Interop 12.0）
+ </summary>
+	<param name="srcSheet">来源工作表对象</param>
+	<param name="startRow">开始行号（如1）</param>
+	<param name="endRow">结束行号（如29）</param>
+	<param name="destSheet">目标工作表对象</param>
+	<param name="destCellAddress">目标单元格（如"C3"）</param>
+</member>
+</members>
+</doc>
