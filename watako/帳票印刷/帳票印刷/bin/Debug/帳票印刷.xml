@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+帳票印刷
+</name>
+</assembly>
+<members>
+<member name="P:帳票印刷.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:帳票印刷.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:帳票印刷.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:帳票印刷.Form1.CopyAllSlipsFromSourceToOutput(Microsoft.Office.Interop.Excel.Worksheet,Microsoft.Office.Interop.Excel.Worksheet,Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Application)">
+	<summary>
+ (主调度函数) 遍历源文件中的每一个送り状，并为每一个都生成一个三联打印页。
+ </summary>
+</member><member name="M:帳票印刷.Form1.FillAllTextForOneSlip(Microsoft.Office.Interop.Excel.Worksheet,Microsoft.Office.Interop.Excel.Worksheet,Microsoft.Office.Interop.Excel.Workbook,System.Int32,System.Int32)">
+	<summary>
+ (核心工作函数) 根据映射表，为单个送り状填充所有“文字”信息。
+ </summary>
+</member><member name="M:帳票印刷.Form1.CopyDetailList_Simple(Microsoft.Office.Interop.Excel.Worksheet,Microsoft.Office.Interop.Excel.Worksheet,System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ (辅助函数) 复制简单的单列列表。
+ </summary>
+</member><member name="M:帳票印刷.Form1.CopyDetailList_Complex(Microsoft.Office.Interop.Excel.Worksheet,Microsoft.Office.Interop.Excel.Worksheet,System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ (辅助函数) 复制复杂的、隔行不同列的列表。
+ </summary>
+</member>
+</members>
+</doc>
